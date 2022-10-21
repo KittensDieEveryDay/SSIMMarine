@@ -1,0 +1,585 @@
+{ 
+"settings":
+{
+"apiKey": "AAPK364d68edd8474a44888a57406ca5f3e0QC2HXlCS4luZCJR7LGTYihN6nMMXtVewe-kiTRWLz4gRh6XupVdw9Z2N8J0kOmbA",
+"map":
+{
+"latitude": 32.805950,
+"longitude": 34.939729,
+"altitude": 0,
+"wkid": 4326,
+"waterHeight": 0,
+"timePresetID": 2,
+"wavesPresetID": 2,
+"weatherPresetID": 0,
+"isRaining": true,
+"isFoggy": false,
+"showUI": true,
+"seed": 0
+}
+},
+"data":
+{
+"objects":
+{
+"shipsObj":
+{
+"array":
+[
+{
+"attributes":
+{
+"name": "Main Ship",
+"isMain": true,
+"type": "main",
+"prefabID": 0,
+"origin":
+{
+"x": 0,
+"y": 0,
+"z": 0
+},
+"mass": 10,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30,
+"shipSpeed": 500,
+"shipTurnSpeed": 0.006
+},
+"path":
+{
+"nodesObj": {
+"array": [
+{
+"origin":
+{
+"x":-175,
+"y": 0,
+"z": 175
+},
+"mass": 10.5,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30
+},
+{
+"origin":
+{
+"x":-150,
+"y": 0,
+"z": 175
+},
+"mass": 10.5,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30
+},
+{
+"origin":
+{
+"x":-100,
+"y": 0,
+"z": 150
+},
+"mass": 10.5,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30
+},
+{
+"origin":
+{
+"x": -50,
+"y": 0,
+"z": 175
+},
+"mass": 10.5,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30
+},
+{
+"origin":
+{
+"x": 50,
+"y": 0,
+"z": -100
+},
+"mass": 10.5,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30
+}]
+}
+}
+},
+{
+"attributes":
+{
+"name": "Small Fishing Boat",
+"isMain": false,
+"type": "fishing",
+"prefabID": 1,
+"origin":
+{
+"x": -100,
+"y": 0,
+"z": 250
+},
+"mass": 10,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30,
+"shipSpeed": 2000,
+"shipTurnSpeed": 0.003
+},
+"path":
+{
+"nodesObj": {
+"array": [
+{
+"origin":
+{
+"x": -100,
+"y": 0,
+"z": 200
+},
+"mass": 10.5,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30
+},
+{
+"origin":
+{
+"x": -150,
+"y": 0,
+"z": 200
+},
+"mass": 10.5,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30
+},
+{
+"origin":
+{
+"x": -200,
+"y": 0,
+"z": 175
+},
+"mass": 10.5,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30
+},
+{
+"origin":
+{
+"x": -300,
+"y": 0,
+"z": 170
+},
+"mass": 10.5,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30
+}]
+}
+}
+},
+{
+"attributes":
+{
+"name": "Second Small Fishing Boat",
+"isMain": false,
+"type": "fishing",
+"prefabID": 1,
+"origin":
+{
+"x": -200,
+"y": 0,
+"z": 150
+},
+"mass": 10,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30,
+"shipSpeed": 3000,
+"shipTurnSpeed": 0.003
+},
+"path":
+{
+"nodesObj": {
+"array": [
+{
+"origin":
+{
+"x": -150,
+"y": 0,
+"z": 150
+},
+"mass": 10.5,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30
+},
+{
+"origin":
+{
+"x": -100,
+"y": 0,
+"z": 100
+},
+"mass": 10.5,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30
+},
+{
+"origin":
+{
+"x": -100,
+"y": 0,
+"z": 75
+},
+"mass": 10.5,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30
+},
+{
+"origin":
+{
+"x": -75,
+"y": 0,
+"z": 75
+},
+"mass": 10.5,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30
+}]
+}
+}
+},
+{
+"attributes":
+{
+"name": "Coast Guard Patrol Ship",
+"isMain": false,
+"type": "coastGuard",
+"prefabID": 1,
+"origin":
+{
+"x": -60,
+"y": 0,
+"z": -56
+},
+"mass": 10,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30,
+"shipSpeed": 3000,
+"shipTurnSpeed": 0.003
+},
+"path":
+{
+"nodesObj": {
+"array": [
+{
+"origin":
+{
+"x": 0,
+"y": 0,
+"z": 200
+},
+"mass": 10.5,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30
+},
+{
+"origin":
+{
+"x": 100,
+"y": 0,
+"z": 200
+},
+"mass": 10.5,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30
+},
+{
+"origin":
+{
+"x": 200,
+"y": 0,
+"z": 100
+},
+"mass": 10.5,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30
+},
+{
+"origin":
+{
+"x": 150,
+"y": 0,
+"z": 150
+},
+"mass": 10.5,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30
+}]
+}
+}
+},
+{
+"attributes":
+{
+"name": "Third Small Fishing Boat",
+"isMain": false,
+"type": "fishing",
+"prefabID": 1,
+"origin":
+{
+"x": 100,
+"y": 0,
+"z": 0
+},
+"mass": 10,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30,
+"shipSpeed": 4000,
+"shipTurnSpeed": 0.003
+},
+"path":
+{
+"nodesObj": {
+"array": [
+{
+"origin":
+{
+"x": 100,
+"y": 0,
+"z": 150
+},
+"mass": 10.5,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30
+},
+{
+"origin":
+{
+"x": 150,
+"y": 0,
+"z": 150
+},
+"mass": 10.5,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30
+},
+{
+"origin":
+{
+"x": 200,
+"y": 0,
+"z": 200
+},
+"mass": 10.5,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30
+},
+{
+"origin":
+{
+"x": 0,
+"y": 0,
+"z": 100
+},
+"mass": 10.5,
+"underWaterDrag": 3,
+"underWaterAngularDrag": 10,
+"airDrag": 0.5,
+"airAngularDrag": 9,
+"floatingPower": 30
+}]
+}
+}
+}
+    
+]
+}
+
+},
+"shorelineMeasuringPointsContainer":
+{
+"pointsObj":{
+"array": [
+{
+"origin":
+{
+"x": 1544,
+"y": 0,
+"z": 2193
+}
+},
+{
+"origin":
+{
+"x": 1405.2,
+"y": 0,
+"z": 2066
+}
+},
+{
+"origin":
+{
+"x": 1348,
+"y": 0,
+"z": 1530
+}
+},
+{
+"origin":
+{
+"x": 1363,
+"y": 0,
+"z": 1073
+}
+},
+{
+"origin":
+{
+"x": 1431,
+"y": 0,
+"z": 658
+}
+},
+{
+"origin":
+{
+"x": 1502,
+"y": 0,
+"z": 347
+}
+},
+{
+"origin":
+{
+"x": 1393,
+"y": 0,
+"z": -16
+}
+},
+{
+"origin":
+{
+"x": 1549,
+"y": 0,
+"z": -173
+}
+},
+{
+"origin":
+{
+"x": 1548,
+"y": 0,
+"z": -649
+}
+},
+{
+"origin":
+{
+"x": 1509,
+"y": 0,
+"z": -1020
+}
+},
+{
+"origin":
+{
+"x": 1494,
+"y": 0,
+"z": -1429
+}
+},
+{
+"origin":
+{
+"x": 1474,
+"y": 0,
+"z": -1778
+}
+},
+{
+"origin":
+{
+"x": 1430,
+"y": 0,
+"z": -2121
+}
+}
+]
+}
+}
+}
+}

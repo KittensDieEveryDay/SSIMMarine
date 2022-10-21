@@ -1,0 +1,39 @@
+{ 
+"identifier":
+{"id": 0,
+"directionID": 1,
+"directionString": "forward",
+"typeID": 0,
+"typeString": "regular"
+},
+"origin":
+{
+"value":
+{
+"x":0,
+"y":2.6,
+"z":-1
+}
+},
+"rotation":
+{
+"value":
+{
+"x":0,
+"y":0,
+"z":0
+}
+},
+"resolution":
+{
+"value":
+{
+"x":1920,
+"y":1080
+}
+},
+"fieldOfView":
+{
+"h":60
+}
+}
